@@ -1,0 +1,33 @@
+{{ "<!-- Portfolio Grid Section -->" | safeHTML }}
+<section class="success" id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>{{ with .Site.Params.portfolio.title }}{{.}}{{end}}</h2>
+                <hr class="star-light">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-5 details-item">
+                <h3>Computer Science</h3>
+                <ul>
+                  <li><p>Academic and industry experience totaling over 8 years.</p></li> 
+                  <li><p>Professional experience in large scale IT systems doing: backend programming, infrastructure and test automation, project management, and system design/architecture.</p></li>
+                  <li><p>Dabbled in the front end, am interested in math & computational theory, and enjoy using vim.</p></li>
+                </ul>
+            </div>
+
+            <div class="col-sm-2 details-item">
+                    <!-- blank space -->
+            </div>
+
+            <div class="col-sm-5 details-item">
+                <h3>Finance</h3>
+                <ul>
+                  <li><p>Academic experience, CFA level 2 candidate, seeking additional professional experience.</p></li>
+                  <li><p>Open to all opportunities that would qualify towards CFA. Ideal opporuntity would entail: buy side, front office, technology focused.</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
