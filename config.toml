@@ -1,8 +1,8 @@
 # Site settings
-baseurl = "http://laurance-george.com/"
+baseurl = "https://laurance-george.com/"
 languageCode = "en-us"
 title = "Laurance George"
-theme = "hugo-freelancer-theme"
+theme = "vncnt-hugo"
 
 
 [params]
@@ -15,19 +15,6 @@ theme = "hugo-freelancer-theme"
     name = "Laurance George"
     description = "A personal site"
 
-    # Since this template is static, the contact form uses www.formspree.io as a
-    # proxy. The form makes a POST request to their servers to send the actual
-    # email. Visitors can send up to a 1000 emails each month for free.
-    #
-    # What you need to do for the setup?
-    #
-    # - set your email address under 'email' below
-    # - upload the generated site to your server
-    # - send a dummy email youself to confirm your account
-    # - click the confirm link in the email from www.formspree.io
-    # - you're done. Happy mailing!
-    email = "your@email.com"
-
     # Custom assets
 	custom_css = []
 	custom_js  = []
@@ -35,12 +22,11 @@ theme = "hugo-freelancer-theme"
     [params.navigation]
         brand = "Laurance George"
 
-
     [params.header]
         # Copy your own image into './static/img/'' if you wish
         image = "profile.png"
         name = "Laurance George"
-        subtitle = "Software Engineer - Finance Focused"
+        subtitle = "Software Engineer"
 
 
     [params.portfolio]
@@ -69,37 +55,8 @@ theme = "hugo-freelancer-theme"
             icon = "download"
 
 
-#    [params.contact]
-#        title = "Contact"
-#
-#        # 'error' defines error messages for invalid inputs
-#        [params.contact.form.name]
-#            text = "Name"
-#            error = "Please enter your name."
-#
-#        [params.contact.form.email]
-#            text = "Email Address"
-#            error = "Please enter your email address."
-#
-#        [params.contact.form.phone]
-#            text = "Phone Number"
-#            error = "Please enter your phone number."
-#
-#        [params.contact.form.message]
-#            text = "Message"
-#            error = "Please enter a message."
-#
-#        [params.contact.form.button]
-#            text = "Send"
-
-
     [params.footer]
         copyright = "Published under the Apache License 2.0. Powered by [Hugo](//gohugo.io)."
-
-        [params.footer.location]
-            title = "Location"
-            # Postal address (add as many lines as necessary)
-            address = [ "Washington, DC"]
 
         [params.footer.social]
             title = "Around the web"
